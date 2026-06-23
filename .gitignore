@@ -1,0 +1,130 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+ms001/
+ms002/
+ms003/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Model Files
+# =========================
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.joblib
+*.pkl
+
+# =========================
+# Training Outputs
+# =========================
+runs/
+tensorboard_logs/
+wandb/
+mlruns/
+
+# =========================
+# Dataset Files
+# =========================
+data/
+
+*.edf
+*.mat
+*.csv
+
+# Keep folder structure
+!data/.gitkeep
+
+# =========================
+# Generated Results
+# =========================
+results/
+outputs/
+predictions/
+reports/
+figures/
+
+# =========================
+# Cache Files
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Build Files
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# SHAP Outputs
+# =========================
+shap_plots/
+*.html
+
+# =========================
+# MNE Cache
+# =========================
+.mne/
+
+# =========================
+# PyTorch Lightning
+# =========================
+lightning_logs/
